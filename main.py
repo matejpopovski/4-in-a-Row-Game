@@ -161,7 +161,7 @@ class FourInARow:
     def reset_game(self):
         self.board = self.create_board()
         self.turn = 0
-        self.winning_coords = []  # Clear winning coordinates
+        self.winning_coords = []  # Clear winning coordinates  
         self.draw_board()
 
 if __name__ == "__main__":
